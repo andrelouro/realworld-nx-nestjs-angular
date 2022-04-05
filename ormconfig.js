@@ -5,7 +5,7 @@ module.exports = {
   host: 'localhost',
   port: 3306,
   username: 'root',
-  password: 'qwerty1',
+  password: '1234567',
   database: 'realworld_db',
   synchronize: false,
   entities: getMetadataArgsStorage().tables.map(tbl => tbl.target),
